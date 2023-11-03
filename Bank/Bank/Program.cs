@@ -15,9 +15,9 @@ namespace Bank
             List <Bank_Account> account_number = new List <Bank_Account> ();
             Bank_Account pol = new Bank_Account();
             account_number.Add(pol);
-            pol.otk();
-            Console.Clear();
-            pol.Vibor();           
+            account_number.Add(pol);
+            pol.Vibor();
+            
         }
     }
 }

@@ -27,7 +27,7 @@ namespace Bank
             Console.Write("Введите сумму, которую хотели бы положить на счет: ");
             sum_account = float.Parse(Console.ReadLine());
         }
-        public void Out()
+        private void Out()
         {
             Console.WriteLine("Информация о вашем счете: ");
             Console.WriteLine($"Номер счета: {account_number}");
@@ -35,7 +35,7 @@ namespace Bank
             Console.WriteLine($"Сумма на счету: {sum_account}");
             Vibor_2();
         }
-        public void Dob()
+        private void Dob()
         {
             Console.Write("Введите сумму, которую хотели бы добавить на ваш счет: ");
             dob = float.Parse(Console.ReadLine());
@@ -43,7 +43,7 @@ namespace Bank
             Console.WriteLine($"Сумма на счету: {sum_account}");
             Vibor_2();
         }
-        public void Umen() 
+        private void Umen() 
         {
             Console.Write("Введите сумму, которую хотите снять со счета: ");
             umen = float.Parse(Console.ReadLine());
@@ -58,13 +58,13 @@ namespace Bank
             }
             Vibor_2();
         }
-        public void Obnul()
+        private void Obnul()
         {
             Console.WriteLine($"Снятие всей суммы: {sum_account}");
             sum_account = sum_account - sum_account;
             Vibor_2();
         }
-        public void Perenos()
+        private void Perenos()
         {
             Account_2();
             while (sum_account_2 > sum_account)
@@ -87,7 +87,7 @@ namespace Bank
             sum_account = sum_account - sum_account_2;
             Vibor_2();
         }
-        public void Account_2()
+        private void Account_2()
         {
             Console.Write("Введите номер счета, на который будет осуществляться перевод: ");
             account_number_2 = Convert.ToInt32(Console.ReadLine());
@@ -122,7 +122,7 @@ namespace Bank
                 Perenos();
             }
         }
-        public void Vibor_2()
+        private void Vibor_2()
         {
             Console.WriteLine("Чтобы вернуться назад, нажмите 9");
             int vibor_2 = Convert.ToInt32(Console.ReadLine());

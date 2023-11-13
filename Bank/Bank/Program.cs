@@ -14,10 +14,12 @@ namespace Bank
         {
             List <Bank_Account> account_number = new List <Bank_Account> ();
             Bank_Account pol = new Bank_Account();
-            account_number.Add(pol);
-            account_number.Add(pol);
+            Bank_Account pol2 = new Bank_Account();
             pol.Vibor();
-            
+
+            account_number.Add(pol);
+            account_number.Add(pol2);
+
         }
     }
 }

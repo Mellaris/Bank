@@ -13,3 +13,10 @@ D:\Bank-main\Bank\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
 D:\Bank-main\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
 D:\Bank-main\Bank\Bank\obj\Debug\Bank.exe
 D:\Bank-main\Bank\Bank\obj\Debug\Bank.pdb
+E:\Bank-main\Bank\Bank\bin\Debug\Bank.exe.config
+E:\Bank-main\Bank\Bank\bin\Debug\Bank.exe
+E:\Bank-main\Bank\Bank\bin\Debug\Bank.pdb
+E:\Bank-main\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+E:\Bank-main\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+E:\Bank-main\Bank\Bank\obj\Debug\Bank.exe
+E:\Bank-main\Bank\Bank\obj\Debug\Bank.pdb

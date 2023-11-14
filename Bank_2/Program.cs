@@ -35,6 +35,7 @@ namespace Bank_2
                     case 5:
                         {
                             Console.WriteLine("Введите номер счета, на который хотите перенести деньги(1 или 2)");
+                            Console.WriteLine($"Ваш текущий: {account + 1}");
                             number = Convert.ToInt32(Console.ReadLine()) - 1;
                             account_numbers[account].Vibor(vib, account, account_numbers, number);
                             break;

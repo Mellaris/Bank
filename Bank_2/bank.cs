@@ -78,7 +78,7 @@ namespace Bank_2
                         Console.WriteLine("Недостаточно денег");
                     }
                 }
-                Console.WriteLine($"Сумма на счету {name}: {sum_account}");
+                Console.WriteLine($"Сумма на счету {account_number} {name}: {sum_account}");
             }
         }
         public void Vibor(int vib, int account, List<bank> account_numbers, int number)

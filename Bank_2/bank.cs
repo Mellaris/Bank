@@ -73,6 +73,10 @@ namespace Bank_2
                         perevod.sum_account = perevod.sum_account + dob;
                         sum_account = sum_account - dob;
                     }
+                    else
+                    {
+                        Console.WriteLine("Недостаточно денег");
+                    }
                 }
                 Console.WriteLine($"Сумма на счету {name}: {sum_account}");
             }

@@ -77,6 +77,7 @@ namespace Bank_2
                     {
                         Console.WriteLine("Недостаточно денег");
                     }
+                    break;
                 }
                 Console.WriteLine($"Сумма на счету {account_number} {name}: {sum_account}");
             }

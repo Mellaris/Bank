@@ -10,16 +10,10 @@ namespace Bank_2
     {
         static void Main(string[] args)
         {
-            int vib;
+            int vib = 0;
             int number = 0;
             List<bank> account_numbers = new List<bank>();
-            bank pol = new bank();
-            bank pol2 = new bank();
-            account_numbers.Add(pol);
-            account_numbers.Add(pol2);
-            Console.WriteLine("Перед началом работы необходимо выьрать счет (сейчас он пустой)");
-            Console.WriteLine("Нажмитие ниже: 1 или 2");
-            int account = Convert.ToInt32(Console.ReadLine()) - 1;
+            int account = 0;
             do
             {
                 Console.WriteLine("Что вы хотели бы сделать?");
@@ -27,14 +21,21 @@ namespace Bank_2
                 vib = Convert.ToInt32(Console.ReadLine());
                 switch (vib)
                 {
-                    case 0: { account_numbers[account].Vibor(vib, account, account_numbers, number); break; }
+                    case 0:
+                        {
+                            Console.Write("Укажите номер своего индивидуального счета: ");
+                            account = Convert.ToInt32(Console.ReadLine()) - 1;
+                            bank pol2 = new bank();
+                            account_numbers.Insert(account, pol2);
+                            account_numbers[account].Vibor(vib, account, account_numbers, number); break;
+                        }
                     case 1: { account_numbers[account].Vibor(vib, account, account_numbers, number); break; }
                     case 2: { account_numbers[account].Vibor(vib, account, account_numbers, number); break; }
                     case 3: { account_numbers[account].Vibor(vib, account, account_numbers, number); break; }
                     case 4: { account_numbers[account].Vibor(vib, account, account_numbers, number); break; }
                     case 5:
                         {
-                            Console.WriteLine("Введите номер счета, на который хотите перенести деньги(1 или 2)");
+                            Console.WriteLine("Введите номер счета, на который хотите перенести деньги");
                             Console.WriteLine($"Ваш текущий: {account + 1}");
                             number = Convert.ToInt32(Console.ReadLine()) - 1;
                             account_numbers[account].Vibor(vib, account, account_numbers, number);
@@ -42,11 +43,8 @@ namespace Bank_2
                         }
                     case 6:
                         {
-                            if (account == 0)
-                            {
-                                account = 1;
-                            }
-                            else account = 0;
+                            Console.WriteLine("Укажите счет, на который хотите перейти");
+                            account = Convert.ToInt32(Console.ReadLine()) - 1;
                             break;
                         }
                 }

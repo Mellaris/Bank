@@ -6,3 +6,10 @@ D:\bank_final\obj\Debug\bank_final.csproj.SuggestedBindingRedirects.cache
 D:\bank_final\obj\Debug\bank_final.csproj.CoreCompileInputs.cache
 D:\bank_final\obj\Debug\bank_final.exe
 D:\bank_final\obj\Debug\bank_final.pdb
+E:\bank_final\bin\Debug\bank_final.exe.config
+E:\bank_final\bin\Debug\bank_final.exe
+E:\bank_final\bin\Debug\bank_final.pdb
+E:\bank_final\obj\Debug\bank_final.csproj.AssemblyReference.cache
+E:\bank_final\obj\Debug\bank_final.csproj.CoreCompileInputs.cache
+E:\bank_final\obj\Debug\bank_final.exe
+E:\bank_final\obj\Debug\bank_final.pdb
